@@ -57,6 +57,11 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -106,6 +111,7 @@ img {
   gap: 40px;
 }
 .header-address-list-items {
+  padding: 24px 0;
 }
 .header-address-list-items-link {
   font-size: 16px;
