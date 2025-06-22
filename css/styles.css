@@ -122,15 +122,12 @@ img {
 
 /* hero-banner start*/
 .hero-banner {
-  background-color: #2e2f42;
-}
-.hero-banner-contetent {
   padding: 188px 0;
-  max-width: 496px;
+  background-color: #2e2f42;
 }
 
 .hero-banner-title {
-  text-align: center;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -261,9 +258,9 @@ img {
 }
 .portfolio-list {
   display: flex;
-  row-gap: 48px;
-  gap: 24px;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list-items {
